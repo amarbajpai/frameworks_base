@@ -107,6 +107,7 @@ public class BatteryMeterDrawableBase extends Drawable {
 
     private final Path mShapePath = new Path();
     private final Path mOutlinePath = new Path();
+    private final Path mClipPath = new Path();
     private final Path mTextPath = new Path();
 
     private DashPathEffect mPathEffect;
